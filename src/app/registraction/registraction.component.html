@@ -1,0 +1,87 @@
+<div class="container">
+  <h3 class="text-danger">Registraction-Form</h3>
+  <div class="row">
+      <div class="col-md-4">
+          <label>FirstName:</label>
+          <input type="text" name="FirstName" id="FirstName"  class="form-control">
+      </div>
+      <div class="col-sm-4"> 
+          <label>LastName:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="text" name="LastName" id="LastName" class="form-control" >
+      </div>
+    </div> 
+       <br>
+       <div class="row">
+      <div class="col-sm-4"> 
+        <label>Email:</label>
+        <input type="text" name="Email" id="Email" class="form-control" >
+        </div>
+        <div class="col-sm-4"> 
+            <label >Password:</label>
+            <input type="Password" id="Password" class="form-control">
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-4"> 
+        <label>PhoneNumber:</label>
+        <input type="text" name="PhoneNumber" id="PhoneNumber" class="form-control">
+        </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-12"> 
+         <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Others
+             </div>
+             </div>
+
+      
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-4"> 
+        <label>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <textarea type="text" name="Address" id="Address" class="form-control" ></textarea>
+        </div>
+        <div class="col-sm-4"> 
+          <label>Qualication:</label>
+        <select>
+      <option selected disabled>--Select--</option>
+      <option>Mtech</option>
+      <option>Btech</option>
+      <option>Degree</option>
+      <option>Mcom</option>
+  </select>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-4"> 
+        <label >Year of passedout:</label>
+        <input type="month" id="yearmonth" name="yearmonth">
+        <br><br>
+        <div class="col-sm-6"> 
+          <label>Course:</label>
+          <select>
+        <option selected disabled>--Select--</option>
+        <option>Angular</option>
+        <option>Dotnet</option>
+        <option>C#</option>
+        <option>Python</option>
+    </select>
+        </div>
+      </div>
+      <br>
+      <br>
+    <label for="start">Date Of Birth:</label>
+    <input type="date" id="start" name="date">
+  </div>
+     <label>Remenber It</label>
+     <input type="checkbox">
+   <br>
+  <br>
+
+<button type="text" class="btn btn-success" (click)="OnSubmit()">Submit</button>
+
